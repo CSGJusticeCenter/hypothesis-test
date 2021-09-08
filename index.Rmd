@@ -1,0 +1,47 @@
+---
+title: "Hypothesis Test"
+description: |
+  Welcome to the website. I hope you enjoy it!
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam faucibus purus in massa. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus. Risus in hendrerit gravida rutrum quisque non tellus. Vitae purus faucibus ornare suspendisse sed nisi lacus. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae. Duis at tellus at urna condimentum mattis pellentesque. Consectetur adipiscing elit ut aliquam. Ultrices eros in cursus turpis massa tincidunt dui. Ut ornare lectus sit amet est placerat in egestas. Ut faucibus pulvinar elementum integer enim neque.
+
+```{r}
+library(ggplot2)
+library(plotly)
+
+x <- rnorm(100)
+y <- rnorm(100)
+d <- data.frame(x, y)
+
+p <- ggplot(d, aes(x, y)) +
+  geom_point()
+
+p
+```
+
+
+Sed nisi lacus sed viverra tellus in. Dignissim suspendisse in est ante. Velit dignissim sodales ut eu sem integer vitae justo. Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Tempor orci eu lobortis elementum nibh tellus molestie nunc. Congue mauris rhoncus aenean vel elit. Tristique magna sit amet purus. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus. In pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Amet mattis vulputate enim nulla. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Dictum at tempor commodo ullamcorper a lacus. Nunc sed augue lacus viverra. Lectus mauris ultrices eros in cursus turpis massa. Egestas quis ipsum suspendisse ultrices gravida.
+
+```{r}
+ggplotly(p)
+```
+
+
+Urna porttitor rhoncus dolor purus non. Id interdum velit laoreet id donec ultrices tincidunt arcu non. Posuere morbi leo urna molestie at. Sit amet purus gravida quis. Aliquet enim tortor at auctor urna nunc. Ultrices dui sapien eget mi proin sed libero enim. Suspendisse faucibus interdum posuere lorem ipsum dolor sit. Tincidunt nunc pulvinar sapien et. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Neque viverra justo nec ultrices. Morbi tincidunt ornare massa eget egestas purus viverra. Sit amet mattis vulputate enim nulla. Quis lectus nulla at volutpat. Sed felis eget velit aliquet sagittis id consectetur purus ut. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Massa tincidunt dui ut ornare lectus sit amet est. Amet luctus venenatis lectus magna fringilla urna. Amet nisl purus in mollis nunc. Est pellentesque elit ullamcorper dignissim cras. Diam vulputate ut pharetra sit amet aliquam id diam.
+
+A diam sollicitudin tempor id eu nisl. Suspendisse in est ante in nibh mauris cursus mattis molestie. Facilisis gravida neque convallis a cras semper auctor. Id aliquet lectus proin nibh nisl. Tellus orci ac auctor augue mauris augue. Purus viverra accumsan in nisl nisi scelerisque eu. Adipiscing enim eu turpis egestas pretium aenean pharetra. Quis risus sed vulputate odio ut enim blandit. Cras pulvinar mattis nunc sed blandit libero. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra.
+
+Nunc sed augue lacus viverra. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Eu facilisis sed odio morbi quis commodo odio aenean. Quis auctor elit sed vulputate mi sit. Morbi enim nunc faucibus a pellentesque sit. Donec enim diam vulputate ut pharetra sit. Mi proin sed libero enim. Eget aliquet nibh praesent tristique magna sit amet. Ultrices vitae auctor eu augue. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Lectus nulla at volutpat diam ut venenatis. Amet dictum sit amet justo donec enim diam vulputate. Lacus sed turpis tincidunt id aliquet risus feugiat. Sit amet massa vitae tortor. Eu augue ut lectus arcu bibendum at. Egestas congue quisque egestas diam in. Odio facilisis mauris sit amet.
