@@ -5,6 +5,10 @@ description: |
 site: distill::distill_website
 ---
 
+<head>
+<script src="https://hypothes.is/embed.js" async></script>
+</head>
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
@@ -38,7 +42,6 @@ Sed nisi lacus sed viverra tellus in. Dignissim suspendisse in est ante. Velit d
 ```{r}
 ggplotly(p)
 ```
-
 
 Urna porttitor rhoncus dolor purus non. Id interdum velit laoreet id donec ultrices tincidunt arcu non. Posuere morbi leo urna molestie at. Sit amet purus gravida quis. Aliquet enim tortor at auctor urna nunc. Ultrices dui sapien eget mi proin sed libero enim. Suspendisse faucibus interdum posuere lorem ipsum dolor sit. Tincidunt nunc pulvinar sapien et. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Neque viverra justo nec ultrices. Morbi tincidunt ornare massa eget egestas purus viverra. Sit amet mattis vulputate enim nulla. Quis lectus nulla at volutpat. Sed felis eget velit aliquet sagittis id consectetur purus ut. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Massa tincidunt dui ut ornare lectus sit amet est. Amet luctus venenatis lectus magna fringilla urna. Amet nisl purus in mollis nunc. Est pellentesque elit ullamcorper dignissim cras. Diam vulputate ut pharetra sit amet aliquam id diam.
 
